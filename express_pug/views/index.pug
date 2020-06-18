@@ -1,0 +1,20 @@
+html
+    head
+        title Home
+        link(rel='stylesheet' href='/lib/bootstrap/css/bootstrap.min.css')
+        script(src='/lib/bootstrap/js/bootstrap.min.js')
+        style
+            include style.css
+
+    body
+        div(class='container')
+            h1 #{name}'s website
+            div(class='row')
+                div(class='col') column1
+                div(class='col') column2
+                div(class='col') colum3
+        script.
+            const name = '#{name}';
+            const age = '#{age}';
+        script
+            include script.js
