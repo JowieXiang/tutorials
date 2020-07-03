@@ -1,0 +1,1 @@
+["black","red","blue","<img src=\"https://picsum.photos/200/300\" onload=\"alert('test');this.parentNode.removeChild(this);\" />","<script>alert('ho')</script>"]
