@@ -1,0 +1,16 @@
+html
+    head
+    body
+        div(class="container")
+            h1 login    
+            form(action="/login" method="POST")
+                div
+                    label(for="name") name
+                    input(type="text" id="name" name="name")
+                div
+                    label(for="password") password
+                    input(type="password" id="password" name="password")
+                div
+                    button(type="submit") login
+                div
+                    a(href="/register") register
