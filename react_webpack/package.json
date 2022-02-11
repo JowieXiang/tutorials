@@ -20,7 +20,7 @@
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
     "html-webpack-plugin": "^5.3.1",
-    "node-sass": "^6.0.0",
+    "node-sass": "^7.0.0",
     "path": "^0.12.7",
     "sass-loader": "^11.1.1",
     "style-loader": "^2.0.0",
